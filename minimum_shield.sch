@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title ""
 Date ""
-Rev ""
+Rev "V1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -46,7 +46,7 @@ IO12
 Text GLabel 3250 4750 2    50   Input ~ 0
 IO13
 $Comp
-L Device:R_Small R3
+L minimum_shield-rescue:R_Small-Device R3
 U 1 1 5FAA5395
 P 4200 3450
 F 0 "R3" H 4259 3496 50  0000 L CNN
@@ -65,7 +65,7 @@ EN
 Text GLabel 4200 3750 3    50   Input ~ 0
 EN
 $Comp
-L Switch:SW_Push SW1
+L minimum_shield-rescue:SW_Push-Switch SW1
 U 1 1 5FA9F44C
 P 4200 2350
 F 0 "SW1" H 4200 2635 50  0000 C CNN
@@ -109,7 +109,7 @@ IO2
 Text GLabel 4000 3750 3    50   Input ~ 0
 IO2
 $Comp
-L Device:R_Small R2
+L minimum_shield-rescue:R_Small-Device R2
 U 1 1 5FAA6C8E
 P 4000 3450
 F 0 "R2" H 4059 3496 50  0000 L CNN
@@ -167,7 +167,7 @@ IO4
 Text GLabel 6950 4500 2    50   Input ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J2
+L minimum_shield-rescue:Conn_02x08_Odd_Even-Connector_Generic J2
 U 1 1 60043E45
 P 6650 4100
 F 0 "J2" H 6700 4617 50  0000 C CNN
@@ -178,7 +178,7 @@ F 3 "~" H 6650 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J1
+L minimum_shield-rescue:Conn_02x08_Odd_Even-Connector_Generic J1
 U 1 1 600412B9
 P 2950 4450
 F 0 "J1" H 3000 4967 50  0000 C CNN
@@ -189,7 +189,7 @@ F 3 "~" H 2950 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L minimum_shield-rescue:C-Device C1
 U 1 1 5FAA1238
 P 4200 1750
 F 0 "C1" V 3948 1750 50  0000 C CNN
@@ -202,7 +202,7 @@ $EndComp
 Text GLabel 3500 1750 0    50   Input ~ 0
 RST
 $Comp
-L Device:LED D1
+L minimum_shield-rescue:LED-Device D1
 U 1 1 6004E38A
 P 2200 3300
 F 0 "D1" H 2193 3045 50  0000 C CNN
@@ -213,7 +213,7 @@ F 3 "~" H 2200 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R5
+L minimum_shield-rescue:R_Small-Device R5
 U 1 1 6004F08C
 P 1800 3300
 F 0 "R5" H 1859 3346 50  0000 L CNN
@@ -232,7 +232,7 @@ Wire Wire Line
 Text GLabel 2350 3300 2    50   Input ~ 0
 IO2
 $Comp
-L Device:LED D2
+L minimum_shield-rescue:LED-Device D2
 U 1 1 6005070B
 P 2200 3700
 F 0 "D2" H 2193 3445 50  0000 C CNN
@@ -243,7 +243,7 @@ F 3 "~" H 2200 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R4
+L minimum_shield-rescue:R_Small-Device R4
 U 1 1 60050DDD
 P 1750 3700
 F 0 "R4" H 1809 3746 50  0000 L CNN
@@ -264,7 +264,7 @@ Wire Wire Line
 Text GLabel 4850 3400 3    50   Input ~ 0
 GND
 $Comp
-L Device:C C4
+L minimum_shield-rescue:C-Device C4
 U 1 1 6005ADA6
 P 4850 3250
 F 0 "C4" V 4598 3250 50  0000 C CNN
@@ -275,7 +275,7 @@ F 3 "~" H 4850 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R1
+L minimum_shield-rescue:R_Small-Device R1
 U 1 1 60160CA5
 P 3950 1350
 F 0 "R1" H 4009 1396 50  0000 L CNN
@@ -288,7 +288,7 @@ $EndComp
 Wire Wire Line
 	4050 1350 4600 1350
 $Comp
-L Device:C C2
+L minimum_shield-rescue:C-Device C2
 U 1 1 5FDF77FC
 P 5600 1650
 F 0 "C2" V 5348 1650 50  0000 C CNN
@@ -303,7 +303,7 @@ VCC
 Wire Wire Line
 	4000 2950 4000 3250
 $Comp
-L Connector_Generic:Conn_01x06 J3
+L minimum_shield-rescue:Conn_01x06-Connector_Generic J3
 U 1 1 5FFAECA9
 P 8150 3550
 F 0 "J3" H 8230 3542 50  0000 L CNN
