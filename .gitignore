@@ -1,1 +1,6 @@
 gerber/
+fp-info-cache
+minimum_shield-cache.lib
+minimum_shield-rescue.dcm
+minimum_shield-rescue.lib
+sym-lib-table
